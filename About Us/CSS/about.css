@@ -1,0 +1,267 @@
+@font-face {
+  font-family: Poppins;
+  src: url("Font/Poppins-Bold.ttf");
+}
+/* General Styles */
+body {
+    font-family:'Poppins-Bold',sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9fc;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0 0 20px;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Section */
+  .header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 19px;
+    opacity: 0.9;
+  }
+  
+  /* Our Story Section */
+  .our-story {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .our-story h2 {
+    font-size: 40px ;
+    color: #6a11cb;
+    margin-bottom: 20px;
+  }
+  
+  .our-story p {
+    font-size: 17.6px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Team Section */
+  .team {
+    background-color: #f1f1f5;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .team h2 {
+    font-size: 40px;
+    color: #2575fc;
+    margin-bottom: 30px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .team-member {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 375px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px);
+  }
+  
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 75%;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h3 {
+    font-size: 24px;
+    color: #6a11cb;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .team-member p {
+    font-size: 15.2px;
+    color: #666;
+  }
+
+  .btn {
+    display: inline-block;
+    background: #6a11cb;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background: #2575fc;
+  }
+
+  .skills {
+    text-align: left; /* Aligns the skills section to the left */
+    margin-top: 10px;
+  }
+  
+  .skills strong {
+    font-size: 16px;
+    display: block; /* Ensures the heading is on its own line */
+    margin-bottom: 5px;
+  }
+  
+  .skills ul {
+    list-style: disc; /* Adds bullet points to the list */
+    padding-left: 20px; /* Adds some space for indentation */
+    margin: 0; /* Removes extra margin */
+    text-align: center;
+  }
+  
+  .skills ul li {
+    font-size: 15.2px;
+    color: #333;
+    margin-bottom: 5px; /* Adds spacing between list items */
+    text-align: left;
+  }
+
+  .education{
+    text-align: left; /* Aligns the education section to the left */
+    margin-top: 10px;
+  }
+
+  .education strong {
+    font-size: 16px;
+    display: block; /* Ensures the heading is on its own line */
+    margin-bottom: 5px;
+  }
+
+  .education ul {
+    list-style: disc; /* Adds bullet points to the list */
+    padding-left: 20px; /* Adds some space for indentation */
+    margin: 0; /* Removes extra margin */
+    text-align: center;
+  }
+  
+  .education ul li {
+    font-size: 15.2px;
+    color: #333;
+    margin-bottom: 5px; /* Adds spacing between list items */
+    text-align: left;
+  }
+  
+  .relevantexperience{
+    text-align: left; /* Aligns the education section to the left */
+    margin-top: 10px;
+  }
+
+  .relevantexperience strong {
+    font-size: 16px;
+    display: block; /* Ensures the heading is on its own line */
+    margin-bottom: 5px;
+  }
+
+  .relevantexperience ul {
+    list-style: disc; /* Adds bullet points to the list */
+    padding-left: 20px; /* Adds some space for indentation */
+    margin: 0; /* Removes extra margin */
+    text-align: center;
+  }
+  
+  .relevantexperience ul li {
+    font-size: 15.2px;
+    color: #333;
+    margin-bottom: 5px; /* Adds spacing between list items */
+    text-align: left;
+  }
+
+  .certifications{
+    text-align: left; /* Aligns the education section to the left */
+    margin-top: 10px;
+  }
+
+  .certifications strong {
+    font-size: 16px;
+    display: block; /* Ensures the heading is on its own line */
+    margin-bottom: 5px;
+  }
+
+  .certifications ul {
+    list-style: disc; /* Adds bullet points to the list */
+    padding-left: 20px; /* Adds some space for indentation */
+    margin: 0; /* Removes extra margin */
+    text-align: center;
+  }
+  
+  .certifications ul li {
+    font-size: 15.2px;
+    color: #333;
+    margin-bottom: 5px; /* Adds spacing between list items */
+    text-align: left;
+  }
+  
+  
+  /* Mission Section */
+  .mission {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .mission h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .mission p {
+    font-size: 17.6px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14.4px;
+  }
+  
+  .footer p {
+    margin: 0;
+    margin-top: 10px;
+  }  
